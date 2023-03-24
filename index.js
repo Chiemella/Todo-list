@@ -38,7 +38,4 @@ addButton.addEventListener("click", function () {
   del.addEventListener("click", function () {
     mainList.removeChild(taskLists);
   });
-  complete.addEventListener("click", function () {
-    paragraph.classList.toggle("complete");
-  });
-});
+})
